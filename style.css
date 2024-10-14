@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana, sans-serif;
+}
+
+body {
+    background-image: url(./img/img-fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    display: flex;
+}
+
+main {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.76);
+    color: white;
+    padding: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;;
+}
+
+main h1 {
+    margin: 20px 0px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input {
+    padding: 20px;
+    margin: 15px 0px;
+    background-color: rgb(24, 24, 24);
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    padding: 15px;
+    background-color: rgb(192, 13, 13);
+    border: none;
+    margin: 15px 0px;
+    color: white;
+}
+
+.lembre-se {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 14px;
+}
+
+.facebook {
+    margin: 20px 0px;
+}
+
+.facebook a img {
+    width: 20px;
+    padding-right: 10px;
+}
+
+.facebook a {
+    text-decoration: none;
+    color:rgb(90, 90, 90);
+    display: flex;
+}
+
+#novoporaqui p {
+    margin: 20px 0px;
+    color:rgb(90, 90, 90);
+}
+
+#novoporaqui span {
+    color: white;
+}
+
+#saibamais {
+    font-size: 14px;
+    color:rgb(90, 90, 90)
+}
+
+#saibamais a {
+    color: rgb(44, 44, 255);
+    text-decoration: none;
+    font-weight: 600;
+}
